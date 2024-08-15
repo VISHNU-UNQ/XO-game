@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 80vh;
+    width: 50%;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    grid-gap: 0px;
+    margin: 60px auto;
+    padding-top: 6px;
+}
+.box{
+    height: 25vh;
+    width:  150px;
+    border: solid 2px black;
+}
+img{
+    height: 25vh;
+    width: 150px;
+}
